@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="4dp"
+    android:layout_margin="8dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="8dp">
+
+        <ImageView
+            android:id="@+id/astrologer_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/profile"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="4dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/astrologer_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Arvind Shukla"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toStartOf="@+id/experience"
+            app:layout_constraintStart_toEndOf="@+id/astrologer_image"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/experience"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="4dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="25 Years"
+            android:textColor="@color/light_black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/skills"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="4dp"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/light_black"
+            android:text="Coffe Cup reading, Falit jyotish, kundaldvsdv bdsjkvb  eljfhhl  aflkh"
+            app:layout_constraintEnd_toStartOf="@+id/experience"
+            app:layout_constraintStart_toEndOf="@+id/astrologer_image"
+            app:layout_constraintTop_toBottomOf="@+id/astrologer_name" />
+
+        <TextView
+            android:id="@+id/language"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="4dp"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/light_black"
+            android:text="English, Hindi"
+            app:layout_constraintEnd_toStartOf="@+id/experience"
+            app:layout_constraintStart_toEndOf="@+id/astrologer_image"
+            app:layout_constraintTop_toBottomOf="@+id/skills" />
+
+        <TextView
+            android:id="@+id/charges"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="4dp"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/black"
+            android:text="$100/min"
+            app:layout_constraintEnd_toStartOf="@+id/experience"
+            app:layout_constraintStart_toEndOf="@+id/astrologer_image"
+            app:layout_constraintTop_toBottomOf="@+id/language" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            android:background="@color/orange"
+            android:drawableStart="@drawable/ic_outline_call_24"
+            android:drawablePadding="12dp"
+            android:gravity="center"
+            android:paddingStart="18dp"
+            android:paddingTop="4dp"
+            android:paddingEnd="18dp"
+            android:paddingBottom="4dp"
+            android:text="Talk on Call"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toEndOf="@+id/astrologer_image"
+            app:layout_constraintTop_toBottomOf="@+id/charges" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

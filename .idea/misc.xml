@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/anura/AndroidStudioProjects/Astrotak/app/src/main/res/layout/activity_main.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/anura/AndroidStudioProjects/Astrotak/app/src/main/res/layout/astrologer_row.xml" value="0.275" />
+        <entry key="..\:/Users/anura/AndroidStudioProjects/Astrotak/app/src/main/res/layout/banner_layout.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/anura/AndroidStudioProjects/Astrotak/app/src/main/res/layout/content_main.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/anura/AndroidStudioProjects/Astrotak/app/src/main/res/layout/feedback_row.xml" value="0.275" />
+        <entry key="..\:/Users/anura/AndroidStudioProjects/Astrotak/app/src/main/res/layout/filter_layout.xml" value="0.275" />
+        <entry key="..\:/Users/anura/AndroidStudioProjects/Astrotak/app/src/main/res/layout/fragment_home.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/anura/AndroidStudioProjects/Astrotak/app/src/main/res/layout/fragment_talk_to_astrologer.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/anura/AndroidStudioProjects/Astrotak/app/src/main/res/layout/full_astrologer_row.xml" value="0.275" />
+        <entry key="..\:/Users/anura/AndroidStudioProjects/Astrotak/app/src/main/res/layout/horoscope_row.xml" value="0.275" />
+        <entry key="..\:/Users/anura/AndroidStudioProjects/Astrotak/app/src/main/res/layout/report_row.xml" value="0.275" />
+        <entry key="..\:/Users/anura/AndroidStudioProjects/Astrotak/app/src/main/res/menu/menu.xml" value="0.23645833333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
